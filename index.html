@@ -195,10 +195,61 @@
               
                 <a href="/bamboo.gitup.io/friends" class="drawer-menu-item-link">
                   
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  
                   <span class="name">友情链接</span>
                 </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(6)">
+                  <span>
+                    
+                      <i class="fa fa-link"></i>
+                    
+                    <span class="name">更多</span>
+                  </span>
+                  <i class="fa fa-chevron-left arrow " :class="{'icon-rotate': isOpen(6)}" aria-hidden="true"></i>
+                </a>
+                <ul class="drawer-sub-menu" v-if="isOpen(6)">
+                  
+                  <li>
+                    <a href="/bamboo.gitup.io/gallery">
+                      
+                      <i class="fa fa-music" style="margin-top: -20px;"></i>
+                      
+                      <span>图库</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/bamboo.gitup.io/huoban">
+                      
+                      <i class="fa fa-film" style="margin-top: -20px;"></i>
+                      
+                      <span>友情连接</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/bamboo.gitup.io/me">
+                      
+                      <i class="fa fa-film" style="margin-top: -20px;"></i>
+                      
+                      <span>关于我</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a target="_blank" rel="noopener" href="http://baidu.com">
+                      
+                      <i class="fa fa-film" style="margin-top: -20px;"></i>
+                      
+                      <span>百度</span>
+                    </a>
+                  </li>
+                  
+                </ul>
               
             </li>
           
@@ -327,10 +378,59 @@
               
                 <a href="/bamboo.gitup.io/friends" class="menu-item-link">
                   
-                    <i class="fa fa-link" aria-hidden="true"></i>
-                  
                   <span class="name">友情链接</span>
                 </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="javascript:;" class="menu-item-link">
+                  
+                    <i class="fa fa-link"></i>
+                  
+                  <span class="name">更多</span>
+                  <i class="fa fa-chevron-down arrow" aria-hidden="true"></i>
+                </a>
+                <ul class="sub-menu">
+                  
+                  <li>
+                    <a href="/bamboo.gitup.io/gallery">
+                      
+                      <i class="fa fa-music" style="margin-top: -20px;"></i>
+                      
+                      <span>图库</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/bamboo.gitup.io/huoban">
+                      
+                      <i class="fa fa-film" style="margin-top: -20px;"></i>
+                      
+                      <span>友情连接</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/bamboo.gitup.io/me">
+                      
+                      <i class="fa fa-film" style="margin-top: -20px;"></i>
+                      
+                      <span>关于我</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a target="_blank" rel="noopener" href="http://baidu.com">
+                      
+                      <i class="fa fa-film" style="margin-top: -20px;"></i>
+                      
+                      <span>百度</span>
+                    </a>
+                  </li>
+                  
+                </ul>
               
             </li>
           
@@ -1639,56 +1739,6 @@ Hooks 函数组
             <span class="post-time">2021-02-15</span>
           </div>
           <div class="post-title">
-            <a class="post-title-link" href="/bamboo.gitup.io/2021/02/15/lodash-zhong-wen-wen-dang/">Lodash 中文文档</a>
-          </div>
-          <div class="post-meta">
-            <div class="post-tags">
-              <!-- 文章详情页的标签 -->
-
-            </div>
-            <div class="post-categories">
-              <!-- 文章详情页的分类 -->
-
-
-            </div>
-          </div>
-          <div class="post-img-mobile">
-            
-              
-              <a href="/bamboo.gitup.io/2021/02/15/lodash-zhong-wen-wen-dang/" class="lazyload" data-original="/bamboo.gitup.io/medias/6.jpg" style="background-size: cover; 
-                background-position: center center;">
-              </a>
-            
-          </div>
-          <div class="post-content">
-            
-Lodash 中文文档文档地址：Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库
-Lodash 通过降低 array、number、objects、string 等等的使用难度从而让 JavaScript 变
-          </div>
-        </div>
-        <div class="post-more">
-          <a href="/bamboo.gitup.io/2021/02/15/lodash-zhong-wen-wen-dang/">
-            <i class="iconfont iconmore" style="  " title="阅读更多"></i>
-          </a>
-        </div>
-      </div>
-      <div class="post-img">
-        
-          <a href="/bamboo.gitup.io/2021/02/15/lodash-zhong-wen-wen-dang/" class="lazyload" data-original="/bamboo.gitup.io/medias/6.jpg" style="background-size: cover; 
-            background-position: center center;">
-          </a>
-        
-      </div>
-    </article>
-  
-    <article class="post" data-aos="fade-up" style="flex-direction: row-reverse;   ">
-      <div class="post-main">
-        <div class="post-info">
-          <div class="post-time">
-            <i class="fa fa-clock-o" aria-hidden="true"></i>
-            <span class="post-time">2021-02-15</span>
-          </div>
-          <div class="post-title">
             <a class="post-title-link" href="/bamboo.gitup.io/2021/02/15/redux-zhong-jian-jian/">redux中间件（持续更新中）</a>
           </div>
           <div class="post-meta">
@@ -1718,13 +1768,63 @@ Lodash 通过降低 array、number、objects、string 等等的使用难度从�
         </div>
         <div class="post-more">
           <a href="/bamboo.gitup.io/2021/02/15/redux-zhong-jian-jian/">
-            <i class="iconfont iconmore" style="float: right;  " title="阅读更多"></i>
+            <i class="iconfont iconmore" style="  " title="阅读更多"></i>
           </a>
         </div>
       </div>
       <div class="post-img">
         
           <a href="/bamboo.gitup.io/2021/02/15/redux-zhong-jian-jian/" class="lazyload" data-original="/bamboo.gitup.io/medias/14.jpg" style="background-size: cover; 
+            background-position: center center;">
+          </a>
+        
+      </div>
+    </article>
+  
+    <article class="post" data-aos="fade-up" style="flex-direction: row-reverse;   ">
+      <div class="post-main">
+        <div class="post-info">
+          <div class="post-time">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <span class="post-time">2021-02-15</span>
+          </div>
+          <div class="post-title">
+            <a class="post-title-link" href="/bamboo.gitup.io/2021/02/15/lodash-zhong-wen-wen-dang/">Lodash 中文文档</a>
+          </div>
+          <div class="post-meta">
+            <div class="post-tags">
+              <!-- 文章详情页的标签 -->
+
+            </div>
+            <div class="post-categories">
+              <!-- 文章详情页的分类 -->
+
+
+            </div>
+          </div>
+          <div class="post-img-mobile">
+            
+              
+              <a href="/bamboo.gitup.io/2021/02/15/lodash-zhong-wen-wen-dang/" class="lazyload" data-original="/bamboo.gitup.io/medias/6.jpg" style="background-size: cover; 
+                background-position: center center;">
+              </a>
+            
+          </div>
+          <div class="post-content">
+            
+Lodash 中文文档文档地址：Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库
+Lodash 通过降低 array、number、objects、string 等等的使用难度从而让 JavaScript 变
+          </div>
+        </div>
+        <div class="post-more">
+          <a href="/bamboo.gitup.io/2021/02/15/lodash-zhong-wen-wen-dang/">
+            <i class="iconfont iconmore" style="float: right;  " title="阅读更多"></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-img">
+        
+          <a href="/bamboo.gitup.io/2021/02/15/lodash-zhong-wen-wen-dang/" class="lazyload" data-original="/bamboo.gitup.io/medias/6.jpg" style="background-size: cover; 
             background-position: center center;">
           </a>
         
@@ -1963,7 +2063,7 @@ Lodash 通过降低 array、number、objects、string 等等的使用难度从�
   class=""
   server="netease"
   type="playlist"
-  id="6756425228"
+  id="6830555839"
   fixed='true'
   autoplay='true'
   theme='#42b983'
